@@ -1,5 +1,5 @@
 def select_books_titles_and_years_in_first_series_order_by_year
-  "SELECT books.title, books.year FROM books LEFT OUTER JOIN ON series ON books.series_id = series.id ORDER BY books.year ASC"
+  "SELECT books.title, books.year FROM books LEFT OUTER JOIN series ON books.series_id = series.id ORDER BY books.year ASC"
 end
 
 def select_name_and_motto_of_char_with_longest_motto
